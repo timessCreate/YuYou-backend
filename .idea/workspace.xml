@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f8af991-1be0-4506-9a5d-63ecdf34bc40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/tag.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/team.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/user_team.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/YuYouApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/RedisTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/TeamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dto/TeamQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/job/PreCacheJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/TeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserTeamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/domain/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/domain/UserTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/enums/TeamStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/TeamAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/TeamJoinRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/TeamQuitRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/TeamUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/UserLogoutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/request/UserRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/vo/TeamUserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/script/ImportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/script/ImportUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/script/InsertUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/script/TableListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/script/UserTableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/TeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UserTeamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/TeamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UserTeamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/AlgorithmUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TeamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserTeamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/paperBanner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/config/RedissonConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/script/InsertUsersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/AlgorithmUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yuYouApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/maven_repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar!/com/google/gson/Gson.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Program Files\maven\apache-maven-3.9.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="C:\Program Files\maven\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="jdk1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jbOXuM8VvGGBUJt3qWqBSjgbzV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ImportExcel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImportUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.application.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AlgorithmUtilsTest.minDistance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertUsersTest.doInsertUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertUsersTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedissonConfigTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.user-center [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.user-center [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.UserCenterApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/timess/Desktop/java/java全栈项目/伙伴匹配系统/副本/partner&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;java.sql.Driver&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timess\Desktop\java\java全栈项目\伙伴匹配系统\副本\partner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timess\Desktop\java\java全栈项目\用户中心系统\user-center\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.utils" />
+      <recent name="com.config" />
+      <recent name="com.script" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.model.request" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.application">
+    <configuration name="application" type="Application" factoryName="Application" singleton="true">
+      <option name="MAIN_CLASS_NAME" value="com.YuYouApplication" />
+      <module name="partner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlgorithmUtilsTest.minDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="partner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.AlgorithmUtilsTest" />
+      <option name="METHOD_NAME" value="minDistance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="partner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.script.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.script" />
+      <option name="MAIN_CLASS_NAME" value="com.script.InsertUsersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertUsersTest.doInsertUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="partner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.script.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.script" />
+      <option name="MAIN_CLASS_NAME" value="com.script.InsertUsersTest" />
+      <option name="METHOD_NAME" value="doInsertUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="partner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.service" />
+      <option name="MAIN_CLASS_NAME" value="com.service.RedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedissonConfigTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="partner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.config" />
+      <option name="MAIN_CLASS_NAME" value="com.config.RedissonConfigTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YuYouApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="partner" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.YuYouApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.application" />
+      <item itemvalue="JUnit.AlgorithmUtilsTest.minDistance" />
+      <item itemvalue="JUnit.InsertUsersTest" />
+      <item itemvalue="JUnit.InsertUsersTest.doInsertUsers" />
+      <item itemvalue="JUnit.RedissonConfigTest.test" />
+      <item itemvalue="JUnit.RedisTest.test" />
+      <item itemvalue="Spring Boot.YuYouApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AlgorithmUtilsTest.minDistance" />
+        <item itemvalue="JUnit.RedissonConfigTest.test" />
+        <item itemvalue="JUnit.RedisTest.test" />
+        <item itemvalue="JUnit.InsertUsersTest.doInsertUsers" />
+        <item itemvalue="JUnit.InsertUsersTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringProfilesService">
+    <option name="activeProfiles">
+      <map>
+        <entry key="partner" value="dev" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f8af991-1be0-4506-9a5d-63ecdf34bc40" name="Changes" comment="" />
+      <created>1721652352496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721652352496</updated>
+      <workItem from="1721652353767" duration="204000" />
+      <workItem from="1721652609284" duration="201000" />
+      <workItem from="1721652832003" duration="8393000" />
+      <workItem from="1721708340795" duration="975000" />
+      <workItem from="1721717578966" duration="3179000" />
+      <workItem from="1721737529340" duration="3043000" />
+      <workItem from="1721742760508" duration="352000" />
+      <workItem from="1721748195138" duration="21738000" />
+      <workItem from="1721837671973" duration="5566000" />
+      <workItem from="1721881722510" duration="17881000" />
+      <workItem from="1721969867365" duration="18000" />
+      <workItem from="1721973121995" duration="509000" />
+      <workItem from="1721982130814" duration="745000" />
+      <workItem from="1721983173327" duration="1545000" />
+      <workItem from="1721992344462" duration="3551000" />
+      <workItem from="1722067810818" duration="1895000" />
+      <workItem from="1722134721608" duration="1814000" />
+      <workItem from="1722137209367" duration="2276000" />
+      <workItem from="1722145854853" duration="11463000" />
+      <workItem from="1722162588971" duration="5978000" />
+      <workItem from="1722221203062" duration="7866000" />
+      <workItem from="1722246175776" duration="5272000" />
+      <workItem from="1722251908490" duration="304000" />
+      <workItem from="1722252258638" duration="1583000" />
+      <workItem from="1722253921221" duration="140000" />
+      <workItem from="1722254072305" duration="311000" />
+      <workItem from="1722254433667" duration="3745000" />
+      <workItem from="1722259853405" duration="1992000" />
+      <workItem from="1722316102612" duration="18698000" />
+      <workItem from="1722391377904" duration="6568000" />
+      <workItem from="1722398477623" duration="56000" />
+      <workItem from="1722398542252" duration="172000" />
+      <workItem from="1722398723919" duration="12432000" />
+      <workItem from="1722480287818" duration="17673000" />
+      <workItem from="1722768642010" duration="107000" />
+      <workItem from="1722834264423" duration="14503000" />
+      <workItem from="1722862845370" duration="2718000" />
+      <workItem from="1722918817895" duration="195000" />
+      <workItem from="1722923922886" duration="47000" />
+      <workItem from="1722998753392" duration="2885000" />
+      <workItem from="1723042226074" duration="7791000" />
+      <workItem from="1723077175206" duration="10802000" />
+      <workItem from="1723100739931" duration="15275000" />
+      <workItem from="1723171088241" duration="3873000" />
+      <workItem from="1723179471810" duration="769000" />
+      <workItem from="1723189400932" duration="1766000" />
+      <workItem from="1723195541968" duration="1437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

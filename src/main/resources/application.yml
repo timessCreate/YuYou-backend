@@ -1,0 +1,44 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: yuyou--backend
+  datasource:
+    #type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/timess
+    username: root
+    password: "099636"
+  #session失效时间
+  Session:
+    timeout: 86400
+    store-type: redis
+
+  #redis 配置
+  redis:
+    port: 6379 #redis安装时的默认运行端口
+    host: localhost  # 本地端口
+    database: 1 #redis有16个库，默认使用 0库
+    password: "099636"
+
+  mvc:
+    path match:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8081
+  servlet:
+    context-path: /api
+    session:
+      cookie:
+        domain: localhost
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: deleted # 全局逻辑删除字段名
+      logic-delete-value: 1 # 逻辑已删除值
+      logic-not-delete-value: 0 # 逻辑未删除值
+
+
